@@ -39,13 +39,13 @@ public class App {
 
         Person person1 = context.getBean("favouriteAnimal", Person.class);
         System.out.println("person-1: " + person1);
-        person1.callAnimal();
+//        person1.callAnimal();
 
 
 
         Person person2 = context.getBean("favouriteAnimal1", Person.class);
         System.out.println("person-2: " + person2);
-        person2.callAnimal();
+//        person2.callAnimal();
 
         context.close();
     }

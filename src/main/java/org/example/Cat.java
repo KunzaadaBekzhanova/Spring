@@ -7,13 +7,13 @@ public class Cat implements Animal{
 
     @Override
     public void animalPlus() {
-        System.out.println("Cat is added");
+        System.out.println("Cat is added-init method is working...");
 
     }
 
     @Override
     public void animalMinus() {
-        System.out.println("Cat is cancelled");
+        System.out.println("Cat is cancelled-destroy method is working...");
     }
 
     public Cat(String breed, String color, int age) {
