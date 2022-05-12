@@ -7,13 +7,13 @@ public class Dog implements Animal{
 
     @Override
     public void animalPlus() {
-        System.out.println("Animal plus");
+        System.out.println("Dog is added");
 
     }
 
     @Override
     public void animalMinus() {
-        System.out.println("Animal minus");
+        System.out.println("Dog is cancelled");
 
     }
 

@@ -1,6 +1,5 @@
 package org.example;
 
-import org.springframework.beans.factory.annotation.Qualifier;
 
 public class Person {
         private String name;
@@ -13,13 +12,12 @@ public class Person {
         public Person(Dog dog) {
         }
 
-        public Person( @Qualifier Dog dog,
-                      @Qualifier Cat cat) {
+        public void callAnimal(){
+            animal.animalPlus();
+            animal.animalMinus();
+
         }
 
-        public Person personSingleton(){
-            return new Person();
-        }
 
         public Person(String name, int age, Animal animal) {
             this.name = name;
